@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+@layer utilities {
+	.link-mobile {
+		@apply px-2 py-1 text-gray-500 text-lg font-bold;
+	}
+	.link {
+		@apply text-[#f4f5f6] text-sm font-bold;
+	}
+
+	.footer-link {
+		@apply text-sm font-bold text-green-600 hover: text-white;
+	}
+
+}
