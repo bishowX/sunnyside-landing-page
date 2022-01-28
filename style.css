@@ -11,7 +11,7 @@
 	}
 
 	.footer-link {
-		@apply text-sm font-bold text-green-600 hover: text-white;
+		@apply text-sm font-bold text-green-600 hover:text-white;
 	}
 
 }
